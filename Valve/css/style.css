@@ -1,0 +1,155 @@
+/* header start */
+ul, ol, li{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+.menu > li{
+display: inline-block;
+position: relative;
+}
+.menu > li > ol{
+position: absolute;
+padding-left: 0;
+display: none;
+}
+.menu > li:hover > ol{
+display: block;
+}
+.menu a{
+display: block;
+color: orange;
+background-color: black;
+width: 100px;
+text-align: center;
+height: 40px;
+padding-top: 10px;
+box-sizing: border-box;
+border-radius: 15%;
+}
+.menu a:hover{
+background-color: rgb(88, 88, 88);
+color:rgb(255, 242, 0);
+transition: 1.2s;
+}
+.menu{
+margin: 0 auto;
+width: 500px;
+}
+body{
+background: url('../img/Gradient yellow.jpg') no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+a{
+color:lightslategray;
+}
+/* header end */
+/* Contact start */
+.contact1 > a{
+width: 100%;
+height: 100%;
+}
+.contact1{
+background-image: url('../img/Steam.png');
+width: 60px;
+height: 60px;
+display: inline-block;
+background-size: contain;
+margin-left: 1300px;
+}
+/* Contact end */
+/* article start */
+article{
+padding: 15px;
+}
+img{
+width: 600px;
+float: left;
+padding-right: 10px;
+}
+.crowbar{
+width: 300px;
+height: 200px;
+display: block;
+}
+.game1{
+width: 500px;
+float: left;
+padding-right: 10px;
+}
+.Tau-Cannon{
+width: 500px;
+height: 300px;
+display: block;
+}
+.IMPULSE-AR2{
+width: 500px;
+height: 300px;
+display: inline-block;
+padding-left: 350px;
+}
+body{
+/*background-image: url('../img/Valve-logo.jpg');*/
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+p{
+color: white;
+background-color: black;
+margin-bottom: 0px;
+}
+h2{
+color: orange;
+background-color: black;
+width: 270px;
+text-align: center;
+border-radius: 10px;
+padding: 5 px;
+}
+.clearboth{
+clear: both;
+margin-bottom: 50px;
+}
+/* article end */
+/* section start */
+#form-images{
+margin-left: 50px;
+}
+label{
+color: lime;
+background-color: none;
+}
+label~a{
+width: 250px;
+display: none;
+border-top-left-radius: 22%;
+border-top-right-radius: 22%;
+border-bottom-left-radius: 35%;
+border-bottom-right-radius: 35%;
+text-align: center;
+}
+#switch:checked~a{
+display: block;
+}
+label~img{
+width: 250px;
+display: none;
+}
+#switch:checked~img{
+display: block;
+}
+a{
+color: darkred;
+background-color: darkgray;
+}
+.Zen{
+color: orange;
+background-color: black;
+}
+.Bad-Cop{
+color: red;
+background-color: gainsboro;
+}
